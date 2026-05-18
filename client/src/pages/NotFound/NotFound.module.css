@@ -1,0 +1,35 @@
+.notFoundPage {
+  min-height: calc(100vh - 80px - 200px); /* Approx viewport minus navbar and footer */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: var(--color-background);
+}
+
+.content {
+  max-width: 600px;
+}
+
+.title {
+  font-size: 8rem;
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-family: var(--font-heading);
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  font-size: 1.1rem;
+  color: var(--color-text-light);
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}

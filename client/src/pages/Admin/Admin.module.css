@@ -1,0 +1,216 @@
+/* Admin Pages Shared CSS */
+
+.loginPage {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-surface);
+  padding: 40px 20px;
+}
+
+.loginCard {
+  background-color: var(--color-white);
+  padding: 40px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.loginCard h2 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: var(--color-muted);
+  margin-bottom: 30px;
+}
+
+.formGroup {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.loginBtn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.errorAlert {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+/* Dashboard Styles */
+.dashboardPage {
+  min-height: 80vh;
+  padding: 40px 0;
+}
+
+.dashboardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(28, 20, 16, 0.1);
+}
+
+.dashboardHeader h1 {
+  font-size: 2.5rem;
+}
+
+.logoutBtn {
+  padding: 8px 16px;
+  border: 1px solid var(--color-dark);
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all var(--transition);
+}
+
+.logoutBtn:hover {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}
+
+.tabs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.tab {
+  padding: 10px 24px;
+  background-color: var(--color-surface);
+  color: var(--color-muted);
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all var(--transition);
+}
+
+.tab.activeTab {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}
+
+/* Table Styles */
+.tableWrapper {
+  overflow-x: auto;
+  background-color: var(--color-white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 16px 20px;
+  text-align: left;
+  border-bottom: 1px solid rgba(28, 20, 16, 0.05);
+}
+
+.table th {
+  background-color: var(--color-surface);
+  font-weight: 600;
+  color: var(--color-muted);
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.badgeSuccess {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.badgeDanger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.actionBtn {
+  font-size: 0.85rem;
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Message Cards */
+.messagesList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.messageCard {
+  background-color: var(--color-white);
+  padding: 24px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--color-accent);
+}
+
+.messageCard.read {
+  border-left-color: var(--color-surface);
+  opacity: 0.8;
+}
+
+.msgHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.msgDate {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.msgPhone {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin-bottom: 15px;
+}
+
+.msgText {
+  background-color: var(--color-surface);
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+}
+
+.readBtn {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: var(--color-surface);
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.readBtn:hover {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}
