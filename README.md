@@ -3,8 +3,8 @@
 A full-stack (MERN) web application built for a boutique café based in Hyderabad. This project features a completely custom, recruiter-grade React frontend (no templates or generic UI frameworks like Tailwind/Bootstrap used) and a secure Node.js/Express backend.
 
 ## 🚀 Live Demo
-- **Frontend (Vercel):** [Coming Soon]
-- **Backend (Render):** [Coming Soon]
+- **Frontend (Vercel):** [https://urban-roast-cafe-liart.vercel.app/](https://urban-roast-cafe-liart.vercel.app/)
+- **Backend API (Render):** [Deployed on Render]
 
 ## 🛠️ Tech Stack
 - **Frontend:** React 18 (Vite), React Router v6, Axios, Framer Motion, CSS Modules
@@ -27,8 +27,8 @@ A full-stack (MERN) web application built for a boutique café based in Hyderaba
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/urban-roast.git
-cd urban-roast
+git clone https://github.com/Medhanshug99/FUTURE_FS_03.git
+cd FUTURE_FS_03
 ```
 
 ### 2. Backend Setup
